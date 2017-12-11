@@ -1,0 +1,19 @@
+{
+  "name": "node-web-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js -e js,hbs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "hbs": "^4.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.5"
+  }
+}
